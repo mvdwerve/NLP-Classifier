@@ -1,2 +1,1 @@
-# NLP-Classifier
-Classifier for NLP 
+# NLP-Diagnostic-Classifier
