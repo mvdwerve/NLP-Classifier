@@ -148,8 +148,6 @@ def plot_tensor(tensors, indices):
 # trainer = Trainer(lm, dictionary, pt='diagnostic-classifier.pt')
 trainer = Trainer(lm, dictionary)
 
-print(sentences)
-
 # loop over the batches
 for i in range(0, len(sentences[:2000]), args.batch_size):
     print(i + 1, '/', len(sentences[:2000]))
